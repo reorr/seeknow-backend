@@ -1,0 +1,107 @@
+:root {
+    --bg-pink: #F05AA2;
+}
+
+.navbar {
+    min-height: 60px;
+    background-color: #fff !important;
+    border-bottom:1px solid rgb(236, 236, 236);
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+    }
+}
+
+#search{
+    display:block;
+    text-align:left;
+}
+
+.feather {
+    display: inline-flex;
+    align-self: center;
+    top: .200em;
+    position: relative;
+}
+
+.btn-trans {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+body > .container {
+    padding-top: 50px;
+}
+
+.progress, .progress-bar {
+    height: 5px;
+    border-radius: 0;
+}
+
+.search-input {
+    /* background: #E9E9E9; */
+    /* height: 40px; */
+    /* border: none; */
+    margin-right: 0 !important;
+}
+
+.bg-banner {
+    background-image: url(http://seeknow.test/images/indexbg.png);
+    background-size: 100%;
+    border-radius: 0%;
+    /* background-repeat: no-repeat; */
+}
+
+.bg-banner2 {
+    background-image: url(http://seeknow.test/images/Background2.png);
+    background-size: 100%;
+    border-radius: 0%;
+    /* background-repeat: no-repeat; */
+}
+
+.color-grad {
+    background: linear-gradient(to left, #ec5252, #6e1a52);
+}
+
+.badge-style {
+    position: absolute;
+    z-index: 0;
+    margin-top: 10px;
+}
+
+.rounded-radius-right {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.rounded-radius-left {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.badge-radius {
+    border-radius: 0px 50% 50% 0px;
+}
+
+.progress-bar {
+    background-color: var(--bg-pink);
+}
+
+.btn-pink {
+    background-color: var(--bg-pink);
+    border: 0;
+}
