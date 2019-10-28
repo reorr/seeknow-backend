@@ -14,14 +14,13 @@ Dashboard
                 <div class="card">
                     <img src="{{ asset('images/singa.png') }}" class="card-img-top" alt="...">
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
+                        <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40"
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Pelihara Singa di Rumah Sendiri</h5>
                         <p class="card-text">Muktazam Hasbi A</p>
-                        <a href="../kelas/singa-di-rumah-sendiri.html"
-                            class="btn btn-primary stretched-link btn-pink">Lanjutkan</a>
+                        <a href="/materi" class="btn btn-primary stretched-link btn-pink">Lanjutkan</a>
                     </div>
                 </div>
             </div>
