@@ -14,8 +14,8 @@ class PenyesuaianTableUsers extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table){
-            $table->string('username')->unique();
-            $table->string('avatar');
+            $table->string('username');
+            $table->string('avatar')->nullable();
             $table->integer('point');
             $table->softDeletes();
             // $table->enum('status', ['ACTIVE', 'INACTIVE']);
