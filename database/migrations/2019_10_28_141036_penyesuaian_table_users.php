@@ -17,6 +17,8 @@ class PenyesuaianTableUsers extends Migration
             $table->string('username');
             $table->string('avatar')->nullable();
             $table->integer('point');
+            $table->string('provider')->nullable();
+            $table->string('provider_id')->nullable();
             $table->softDeletes();
             // $table->enum('status', ['ACTIVE', 'INACTIVE']);
         });

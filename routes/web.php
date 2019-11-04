@@ -19,6 +19,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('auth/{driver}', 'Auth\LoginController@redirectToProvider')->name('login.provider');
+Route::get('auth/{driver}/callback', 'Auth\LoginController@handleProviderCallback')->name('login.callback');
+
 Route::get('materi', function(){
     return view('materi'); // Your Blade template name
 });
