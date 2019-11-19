@@ -6,7 +6,7 @@ Dashboard
 
 @section('content')
 <div class="container">
-        <h2>Selamat Datang, {{ Auth::user()->name }}!</h2>
+        <h2>Welcome, {{ Auth::user()->name }}!</h2>
         <br>
         <h3>In Progress</h3>
         <div class="row">
